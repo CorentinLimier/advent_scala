@@ -1,6 +1,6 @@
 package days01
 
-private class Elf(val calories: List[Int]):
+class Elf(val calories: List[Int]):
     val sumCalories = calories.sum
 
 private def getInput(filePath: String): String = {
