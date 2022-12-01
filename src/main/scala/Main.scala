@@ -1,5 +1,8 @@
-@main def hello: Unit = 
-  println("Hello world!")
-  println(msg)
+import days01.main
 
-def msg = "I was compiled by Scala 3. :)"
+@main def main(args: String*) =
+    if args.length == 0 then throw new Exception("require argument day")
+    args(0) match {
+        case "01" => days01.main()
+        case _ => throw new Exception("day not supported")
+    }
