@@ -1,3 +1,7 @@
+# advent_rust
+
+https://adventofcode.com/2022/
+
 ## sbt project compiled with Scala 3
 
 ### Usage
